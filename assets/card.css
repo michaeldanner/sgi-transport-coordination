@@ -1,0 +1,119 @@
+.card-title {
+    font-weight: bold;
+    font-size: 24px; /* Example font size */
+    text-align: center; /* Center aligning the title */
+    margin-bottom: 2px;
+    margin-top: 2px;
+    }
+
+.card-text {
+    color:rebeccapurple;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Lucida Grande', Arial, sans-serif;
+    text-align: center; /* Left aligning the text */
+}
+
+.card-small {
+    font-size: 14px;
+    font-family: 'Lucida Grande', Arial, sans-serif;
+    text-align: center; /* Left aligning the text */
+}
+
+.spacer{
+    margin-top: 23px;
+    font-size: 20px;
+}
+
+.card-img {
+    width: 11%;
+    display: block;
+    margin-left: 128px; /* Left aligning the text */
+    margin-right: auto;
+    margin-bottom: 5px;
+    margin-top: -82px;
+    border: solid darkgray 2px;
+}
+
+.img-fluid {
+    width: 50%;
+}
+
+.img-table {
+    width: 100%;
+    height: 100%;
+}
+
+.card {
+    height: 2.3in; /* Individual card size */
+    width: 7.5in; /* Individual card height */
+    background-color: white;
+    box-shadow: none; /* Remove shadows for printing */
+    margin: 0px;
+    padding: 0px;
+    page-break-after: avoid;
+    border: solid 1px black;
+}
+
+.table-spacer{
+    margin-top: 515px;
+    font-size: 20px;
+}
+
+.table-card {
+    height: 8.27in; /* Individual card size */
+    width: 11.69in; /* Individual card height */
+    background-color: white;
+    box-shadow: none; /* Remove shadows for printing */
+    margin: 0px;
+    padding: 0px;
+    page-break-after: always;
+    border: solid 1px black;
+}
+
+.table-container {
+        padding: 0;
+        margin: 0;
+        page-break-after: always;
+        page-break-inside: avoid;
+    }
+
+.table-title {
+    font-weight: bold;
+    font-size: 72px; /* Example font size */
+    text-align: center; /* Center aligning the title */
+    margin-bottom: 2px;
+    margin-top: 45px;
+    }
+
+.table-text {
+    color:rebeccapurple;
+    font-size: 36px;
+    font-weight: bold;
+    font-family: 'Lucida Grande', Arial, sans-serif;
+    text-align: center; /* Left aligning the text */
+}
+
+.table-card-img {
+    width: 7%;
+    display: block;
+    margin-left: 237px; /* Left aligning the text */
+    margin-right: auto;
+    margin-bottom: 5px;
+    margin-top: -192px;
+    border: solid darkgray 2px;
+}
+
+.card-body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.card-container {
+        width: 7.6in;
+        height: 2.4in; /* Set the container height to the sum of two cards plus some margin */
+        padding: 0;
+        margin: 0;
+        page-break-after: always;
+        page-break-inside: avoid;
+    }
